@@ -60,3 +60,11 @@
   color: #fff;
   cursor: pointer;
 }
+
+@media (max-width: 500px) {
+  .button_violet {
+    width: 100%;
+    grid-template-columns: 1fr;
+    padding: 0.5rem 0;
+  }
+}
