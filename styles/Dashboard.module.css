@@ -1,0 +1,14 @@
+.logo {
+  margin: 1.5rem auto;
+  display: block;
+}
+.container_grid__2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px
+}
+.container_grid__2 > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
